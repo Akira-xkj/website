@@ -1,0 +1,169 @@
+
+
+
+body{
+	background-color:lightcyan;
+}
+
+h1{
+	text-align:center;
+	color:gold;
+	font-family:cursive;
+	font-size:220%;
+}
+
+.content{
+	font-size:21px;
+	color:darkmagenta;
+	background-color: tomato;
+	padding:50px;
+}
+
+
+header{
+	background-image:url(background.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+ul{
+	font-size:20px;
+}
+
+ul 	{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+}
+
+ul li{
+	display:inline-block;
+	
+}
+
+ul li a{
+	text-decoration:none;
+	color:tomato;
+	padding:5px 20px;
+	border:2px solid ;
+	transition:0.3s ease;
+}
+
+ul li a:hover{
+	background-color:grey;
+	color:gold;
+}
+
+.logo img{
+	float:left-top;
+	width:150;
+	height:auto;
+}
+
+footer{
+	font-family:Impact;
+	text-align:right;
+	background-color:yellow;
+}
+
+
+.contact-form{
+	background-image:url(cu.png);
+	background-size:100%;
+	width:600px;
+	height:500px;
+}
+
+.contact-form{
+	font-size:20px;
+	font-family:franciscan;
+	max-width:600px;
+	padding:20px 30px;
+	text-align:center;
+	position:relative;
+	flex: auto
+}
+
+.contact-form h1{
+	margin-top:0;
+	color:black;
+}
+
+.text-table{
+	border:2px solid tomato;
+	margin:7px 0;
+	padding:10px 15px;
+	border-radius:10px;
+}
+
+.text-table label{
+	display:block;
+	text-align:left;
+}
+
+.text-table input,.text-table textarea{
+	width:100%;
+	border;none;
+}
+
+.button{
+	display:inline-block;
+	background:#4e768c;
+	padding:15px;
+	color:white;
+	text-transform:uppercase;
+	cursor:pointer;
+	width:20%;
+}
+	
+
+
+address{
+	text-align: left;
+}	
+	
+	
+
+h3{
+	color:blue;
+	width:20%;
+}
+	
+.boxes{
+	display:flex;
+	flex-direction:row;
+	flex-warp:warp;
+}
+
+.box {
+	border: 1px solid #999; 
+	border-radius: 10px; 
+	flex: auto;
+	margin: 5px; 
+	padding: 10px; 
+	width: 100px;
+}
+
+.bx{
+	display:flex;
+	flex-direction:row;
+	flex-warp:warp;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
